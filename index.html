@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PC-schoolcambodia - A leading educational institution in Cambodia">
+    <title>PC-schoolcambodia | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>PC-schoolcambodia</h1>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Welcome to PC-schoolcambodia</h2>
+            <p>Excellence in Education, Building Future Leaders</p>
+            <button class="cta-btn" onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>PC-schoolcambodia is dedicated to providing quality education and fostering intellectual growth in students across Cambodia. Our mission is to prepare students for success in higher education and professional careers.</p>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🎓 Quality Education</h3>
+                    <p>Curriculum designed by experienced educators</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🌍 Global Perspective</h3>
+                    <p>International standards and best practices</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👥 Student Support</h3>
+                    <p>Dedicated mentors and counselors</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💻 Technology</h3>
+                    <p>Modern facilities and digital learning tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs" id="programs">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="program-grid">
+                <div class="program-card">
+                    <h3>Elementary School</h3>
+                    <p>Grades 1-6: Foundation in core subjects and critical thinking</p>
+                </div>
+                <div class="program-card">
+                    <h3>Middle School</h3>
+                    <p>Grades 7-9: Advanced academics and skill development</p>
+                </div>
+                <div class="program-card">
+                    <h3>High School</h3>
+                    <p>Grades 10-12: College preparatory and vocational tracks</p>
+                </div>
+                <div class="program-card">
+                    <h3>Special Programs</h3>
+                    <p>Language learning, STEM, and arts enrichment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contactForm" onsubmit="handleFormSubmit(event)">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> info@pc-schoolcambodia.com</p>
+                <p><strong>Phone:</strong> +855 (0) 123-456-789</p>
+                <p><strong>Address:</strong> Phnom Penh, Cambodia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 PC-schoolcambodia. All rights reserved.</p>
+            <p>Version 4.0 | Hosted on GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
